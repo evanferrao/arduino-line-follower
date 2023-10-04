@@ -108,11 +108,11 @@ void linefollow()
   motor1.drive(lsp);
   motor2.drive(rsp);
   
-  int sensorValue1 = analogRead(A0);
-  int sensorValue2 = analogRead(A1);
-  int sensorValue3 = analogRead(A2);
-  int sensorValue4 = analogRead(A3);
-  int sensorValue5 = analogRead(A4);
+  int sensorValue1 = analogRead(A1);
+  int sensorValue2 = analogRead(A2);
+  int sensorValue3 = analogRead(A3);
+  int sensorValue4 = analogRead(A4);
+  int sensorValue5 = analogRead(A5);
 
   // print out the value you read:
 
