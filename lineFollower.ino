@@ -47,11 +47,13 @@ void setup()
 
 void loop()
 {
+  /*
   while (digitalRead(11)) {}
   delay(1000);
   calibrate();
   while (digitalRead(12)) {}
   delay(1000);
+  */
 
   while (1)
   {
